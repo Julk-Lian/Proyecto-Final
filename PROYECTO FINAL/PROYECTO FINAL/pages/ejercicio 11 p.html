@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+    <link rel="stylesheet" href="../css/condicionales.css">
+</head>
+<body>
+    <header>
+        <h1>Introducción a Condicionales</h1>
+        <h2>Ejercicio 4: ¿Qué recipiente puede contener más líquido, un vaso de 250 ml o una botella de 1 litro?</h2>
+    </header>
+    <main>
+        <section class="juego">
+            <img src="../img/pregunta2.png" alt="Recipientes" class="imagen-juego">
+            <form>
+                <div class="opciones">
+                    <button type="button" onclick="tarea.ejercicio11('Vaso')">
+                        <img src="../img/vaso.png" alt="Vaso">
+                        <span>Vaso</span>
+                    </button>
+                    <button type="button" onclick="tarea.ejercicio11('Botella')">
+                        <img src="../img/botella.png" alt="Botella">
+                        <span>Botella</span>
+                    </button>
+                </div>
+                <div class="respuesta" id="resp">
+                    Aquí va a ir la respuesta:
+                </div>
+                <div class="mensaje-felicidades">
+                    <h2>¡Felicidades! Has completado el Primer Nivel!</h2>
+                </div>
+                <div class="navegacion">
+                    <button type="button" class="msj"><a href="./primaria.html">Regresar</a></button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="../js/primaria.js"></script>
+</body>
+</html>

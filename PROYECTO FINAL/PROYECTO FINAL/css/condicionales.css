@@ -1,0 +1,113 @@
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeb3b; 
+    border-bottom: 2px solid #fdd835;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px); 
+    background: url('../images/fondo.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.juego {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-juego {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px; 
+    height: 60px; 
+}
+
+button img {
+    max-width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+button span {
+    font-size: 14px;
+    color: #333;
+}
+
+.respuesta {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.correcto {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrecto {
+    color: red;
+    font-weight: bold;
+}
+
+.msj {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.msj a {
+    color: white;
+    text-decoration: none;
+}
+
+.msj:hover {
+    background-color: #007B9E; 
+}
+
+.opciones {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center; 
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="../css/adivinarpalabra.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinar Palabra</title>
+</head>
+<body>
+    <header>
+        <h1>Bucles avanzados</h1>
+        <h2 class="titulo">Ejercicio 3: Juego de Adivinar Palabra</h2>
+    </header>
+    <main>
+        <div class="ahorcado-container">
+            <img id="imagen-ahorcado" src="../img/ahorcado0.png" alt="Ahorcado">
+        </div>
+        <div id="palabra" class="palabra"></div>
+        <div class="info">Intentos restantes: <span id="intentos-restantes" class="intentos"></span></div>
+        <div class="info">Letras utilizadas: <span id="letras" class="letras"></span></div>
+        <div id="resultado" class="resultado"></div>
+        <div id="botones" class="botones"></div>
+        <div class="pista" id="pista"></div>
+        <button id="reset-button" type="button" class="btn-reset">Borrar</button>
+        <div class="mensaje-felicidades">
+            <h2>¡Felicidades! Has completado el Segundo Nivel!</h2>
+        </div>
+        <div class="navegacion">
+            <button type="button" class="btn-regresar"><a href="./secundaria.html">Regresar</a></button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ejercicios de Lógica de Programación. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../js/secundaria.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            secundaria.ejercicio9()
+        })
+
+        document.getElementById('reset-button').addEventListener('click', function() {
+            secundaria.ejercicio9()
+        })
+    </script>
+</body>
+</html>
+

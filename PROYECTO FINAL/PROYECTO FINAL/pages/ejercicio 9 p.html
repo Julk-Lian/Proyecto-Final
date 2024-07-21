@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="../css/condicionales.css">
+</head>
+<body>
+    <header>
+        <h1>Introducción a Condicionales</h1>
+        <h2>Ejercicio 2: ¿Qué tiene más superficie, una mesa de 1 m² o una alfombra de 2 m²?
+        </h2>
+    </header>
+    <main>
+        <section class="juego">
+            <img src="../img/pregunta.png" alt="Superficie" class="imagen-juego">
+            <form>
+                <div class="opciones">
+                    <button type="button" onclick="tarea.ejercicio9('Mesa')">
+                        <img src="../img/mesa.png" alt="Mesa">
+                        <span>Mesa</span>
+                    </button>
+                    <button type="button" onclick="tarea.ejercicio9('Alfombra')">
+                        <img src="../img/alfombra.png" alt="Alfombra">
+                        <span>Alfombra</span>
+                    </button>
+                </div>
+                <div class="navegacion">
+                    <button type="button" class="msj"><a href="./primaria.html">Regresar</a></button>
+                    <button type="button" class="msj"><a href="./ejercicio 10 p.html">Siguiente</a></button>
+                </div>
+                <div class="respuesta" id="resp">
+                    Aquí va a ir la respuesta:
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="../js/primaria.js"></script>
+</body>
+</html>
